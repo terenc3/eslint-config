@@ -1,0 +1,15 @@
+{
+  "name": "@terenc3/eslint-config",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "author": "Benjamin Kahlau (https://roanapur.de)",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
+}
