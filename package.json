@@ -4,12 +4,24 @@
   "description": "",
   "main": "index.js",
   "author": "Benjamin Kahlau (https://roanapur.de)",
-  "license": "MIT",
+  "license": "GPL-3.0-or-later",
   "keywords": [
     "eslint",
     "eslintconfig"
   ],
+  "scripts": {
+    "lint": "eslint *.js"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  },
   "peerDependencies": {
     "eslint": ">= 3"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.0",
+    "husky": "^1.3.1"
   }
 }

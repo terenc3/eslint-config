@@ -182,6 +182,6 @@ module.exports = {
         'vars-on-top': 0,
         'wrap-iife': 0,
         'wrap-regex': 0,
-        'yoda': [0, 'never'],
+        'yoda': [0, 'never']
     }
 };
